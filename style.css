@@ -1,0 +1,68 @@
+/*Base html tags*/
+body{
+    background-color: lightblue;
+    } 
+  
+h1{
+   color: navy;
+   margin-left: 20px;
+  }
+
+/*id tags*/
+#main_div{
+    background-color: darkolivegreen;
+    color: black;
+}
+
+#attributes{
+    background-color: bisque;
+
+}
+
+#hit_points{
+
+        background-color: antiquewhite;
+}
+
+#fabula_points{        
+    background-color: antiquewhite;
+}
+#experience_points{        
+    background-color: antiquewhite;
+}
+#levels{        
+    background-color: antiquewhite;
+}
+#equipment{
+    background-color: antiquewhite;
+
+}
+#backpack_notes{
+    background-color: antiquewhite;
+
+}
+#zenit{
+    background-color: antiquewhite;
+}
+#traits{}
+#bonds{}
+
+
+
+/*class tags*/
+.title_bubble_vert{
+    background-color: darkgrey;
+
+}
+
+.title_bubble_horiz{
+    background-color:aquamarine;
+
+}
+
+
+.details_area{
+    background-color: azure;
+
+}
+
