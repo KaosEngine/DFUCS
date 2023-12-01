@@ -13,6 +13,12 @@ body {
 #main_div {
     background-color: darkolivegreen;
     color: black;
+    height: 500px;
+    width: 100%;
+}
+#target_frame{
+    height: 500px;
+    width: 100%;
 }
 
 #attributes {
@@ -65,7 +71,8 @@ background-color: indigo;
 
 #primary_cs_frame{
     color: black;
-
+    height:500px; 
+    width:800px;
 }
 
 /*class tags*/
