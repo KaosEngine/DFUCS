@@ -5,7 +5,6 @@ body {
     max-width: 100%;
     overflow: hidden;
     position: relative;
-    background-color: lightblue;
 }
 
 
@@ -14,21 +13,37 @@ body {
 #main_div {
     background-color: darkolivegreen;
     color: black;
+    height: 500px;
+    width: 100%;
+}
+#banner{
+    height:15%;
+    width:100%;
+}
+
+#target_frame{
+    height: 500px;
+    width: 100%;
 }
 
 #attributes {
-    background-color: bisque;
+    background-color: blue;
+
+}
+
+#hmi_points{
+background-color: indigo;
 }
 
 #hit_points {
-        background-color: antiquewhite;
+        background-color: green;
 }
 
 #fabula_points {        
-    background-color: antiquewhite;
+    background-color: violet;
 }
 #experience_points{        
-    background-color: antiquewhite;
+    background-color: brown;
 }
 #levels{        
     background-color: antiquewhite;
@@ -37,21 +52,33 @@ body {
     background-color: antiquewhite;
 
 }
-#backpack_notes{
-    background-color: antiquewhite;
-
-}
 #zenit{
     background-color: antiquewhite;
 }
+#identity{
+    background-color: red;
+}
+#experience_points{
+    background-color: black;
+    color: red;
+}
+#equipment{
+    background-color: red;
+}
+#backpack{background-color: orange;}
+#character_level{background-color: yellow;}
 #traits{
-    background-color: antiquewhite;
+    background-color: orange;
 }
 #bonds{
-    background-color: antiquewhite;
+    background-color:yellow;
 }
 
-
+#primary_cs_frame{
+    color: black;
+    height:500px; 
+    width:800px;
+}
 
 /*class tags*/
 .title_bubble_vert{
@@ -71,3 +98,6 @@ body {
     border-style: solid;
 }
 
+.main_frame{
+    background-color: whitesmoke;
+}

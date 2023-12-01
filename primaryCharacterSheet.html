@@ -1,10 +1,18 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="app.js"></script>
+    </head>
     <body>
-        <div id="primary_cs_frame" class="">
+        <div id="primary_cs_frame" class="" >
             <center><h1>Primary Character Sheet</h1></center>
 
-            <div id="identity"  class="details_area" height="20" width="20" style="border: 2px; border-style: solid;">
-                identity
+            <div id="identity"  class="details_area"  style="border: 2px; border-style: solid;">
+                <label for="name">Name:</label>
+                <input id="name" name="name" type="text" />
+
+                <label for="pronouns"> Pronouns:</label>
+                <input id="pronouns" name="pronouns" type="text" />
             </div>
     
             <div id="traits" class="details_area" height="20" width="20" style="border: 2px; border-style: solid;">
@@ -12,7 +20,101 @@
             </div>
 
             <div id="bonds" class="details_area" height="20" width="20" style="border: 2px; border-style: solid;">
-                bonds
+                <div id="bond_A">
+
+                    <label for="bond_A_name">Name:</label>
+                    <input id="bond_A_name" name="bond_A_name" type="text" />
+    
+                    <label for="bond_A_admire">Admiration</label>
+                    <input type="checkbox" name="bond_A_admire" id="bond_A_admire" />
+    
+                    <label for="bond_A_infer">Inferiority</label>
+                    <input type="checkbox" name="bond_A_infer" id="bond_A_infer" />
+    
+                    <label for="bond_A_loyal">Loyalty</label>
+                    <input type="checkbox" name="bond_A_loyal" id="bond_A_loyal" />
+    
+                    <label for="bond_A_mistrust">Admiration</label>
+                    <input type="checkbox" name="bond_A_mistrust" id="bond_A_mistrust" />
+    
+                    <label for="bond_A_affect">Affection</label>
+                    <input type="checkbox" name="bond_A_affect" id="bond_A_affect" />
+    
+                    <label for="bond_A_hate">Hatred</label>
+                    <input type="checkbox" name="bond_A_hate" id="bond_A_hate" />
+                </div>
+
+                <div id="bond_B">
+
+                    <label for="bond_B_name">Name:</label>
+                    <input id="bond_B_name" name="bond_B_name" type="text" />
+    
+                    <label for="bond_B_admire">Admiration</label>
+                    <input type="checkbox" name="bond_B_admire" id="bond_B_admire" />
+    
+                    <label for="bond_B_infer">Inferiority</label>
+                    <input type="checkbox" name="bond_B_infer" id="bond_B_infer" />
+    
+                    <label for="bond_B_loyal">Loyalty</label>
+                    <input type="checkbox" name="bond_B_loyal" id="bond_B_loyal" />
+    
+                    <label for="bond_B_mistrust">Admiration</label>
+                    <input type="checkbox" name="bond_B_mistrust" id="bond_B_mistrust" />
+    
+                    <label for="bond_B_affect">Affection</label>
+                    <input type="checkbox" name="bond_B_affect" id="bond_B_affect" />
+    
+                    <label for="bond_B_hate">Hatred</label>
+                    <input type="checkbox" name="bond_B_hate" id="bond_B_hate" />
+                </div>
+
+                <div id="bond_C">
+                    <label for="bond_C_name">Name:</label>
+                    <input id="bond_C_name" name="bond_C_name" type="text" />
+    
+                    <label for="bond_C_admire">Admiration</label>
+                    <input type="checkbox" name="bond_C_admire" id="bond_C_admire" />
+    
+                    <label for="bond_C_infer">Inferiority</label>
+                    <input type="checkbox" name="bond_C_infer" id="bond_C_infer" />
+    
+                    <label for="bond_C_loyal">Loyalty</label>
+                    <input type="checkbox" name="bond_C_loyal" id="bond_C_loyal" />
+    
+                    <label for="bond_C_mistrust">Admiration</label>
+                    <input type="checkbox" name="bond_C_mistrust" id="bond_C_mistrust" />
+    
+                    <label for="bond_C_affect">Affection</label>
+                    <input type="checkbox" name="bond_C_affect" id="bond_C_affect" />
+    
+                    <label for="bond_C_hate">Hatred</label>
+                    <input type="checkbox" name="bond_C_hate" id="bond_C_hate" />
+                </div>
+
+                <div id="bond_D">
+                    <label for="bond_D_name">Name:</label>
+                    <input id="bond_D_name" name="bond_D_name" type="text" />
+    
+                    <label for="bond_D_admire">Admiration</label>
+                    <input type="checkbox" name="bond_D_admire" id="bond_D_admire" />
+    
+                    <label for="bond_D_infer">Inferiority</label>
+                    <input type="checkbox" name="bond_D_infer" id="bond_D_infer" />
+    
+                    <label for="bond_D_loyal">Loyalty</label>
+                    <input type="checkbox" name="bond_D_loyal" id="bond_D_loyal" />
+    
+                    <label for="bond_D_mistrust">Admiration</label>
+                    <input type="checkbox" name="bond_D_mistrust" id="bond_D_mistrust" />
+    
+                    <label for="bond_D_affect">Affection</label>
+                    <input type="checkbox" name="bond_D_affect" id="bond_D_affect" />
+    
+                    <label for="bond_D_hate">Hatred</label>
+                    <input type="checkbox" name="bond_D_hate" id="bond_D_hate" />
+                </div>
+
+
             </div>
             <div id="attributes" class="details_area" height="20" width="20" style="border: 2px; border-style: solid;">
                 attributes
@@ -32,8 +134,10 @@
             <div id="backpack" class="details_area" height="20" width="20" style="border: 2px; border-style: solid;">
                 backpack
             </div>
-            <div id="zenit" class="details_area" height="20" width="20" style="border: 2px; border-style: solid;">
-                zenit
+            <div id="zenit" class="details_area" style="border: 2px; border-style: solid;">
+                <img src="images/CoinStack.png" style="height:40px;width:40px;">
+                <label for="zenit_amnt">Zenit:</label>
+                <input id="zenit_amnt" name="zenit_amnt" type="text" style="width:20px;"/>
             </div>
             <div id="character_levels" class="details_area" height="20" width="20" style="border: 2px; border-style: solid;">
                 character levels

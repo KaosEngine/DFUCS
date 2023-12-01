@@ -5,8 +5,9 @@
         <script src="app.js"></script>
     </head>
     <body>
+<div id ="root_wrapper"> 
         <div id="banner">
-            <center><h1>So Did this work?!</h1></center>
+           <center> <img src="images/fu-logo-trasp.png"  width="500" height="150"></center>
         </div>
         
         <div id="menu_bar">
@@ -16,9 +17,14 @@
             <a href="arcanaAndSpells.html" target="primary_display">Arcana And Spells</a><br>
         </div>
 
-        <div  id="main__content" height="300px" width="300px">
-            <iframe name="primary_display" src="primaryCharacterSheet.html" title="Main Character Sheet" style="border:1px solid black;" height="300px" width="300px"></iframe>
+        <div  id="main_div" >
+           
+            <iframe id="target_frame" name="primary_display" src="primaryCharacterSheet.html" title="Main Character Sheet" style="border:1px solid black;"></iframe>
+            
         </div>
 
-    </body>
+        <div id="footer_div" name="footer_div"> <h1>Hey hey it's a Footer</h1></div>
+</div>
+</body>
+
 </html>
