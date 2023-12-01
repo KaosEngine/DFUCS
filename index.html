@@ -5,11 +5,20 @@
         <script src="app.js"></script>
     </head>
     <body>
-        <div id="main_div">
+        <div id="banner">
             <center><h1>So Did this work?!</h1></center>
         </div>
-        <div>
-            <button onclick="doTheThang()">Clicky Clicky</button>
+        
+        <div id="menu_bar">
+            <button onclick="doTheThang()">Clicky Clicky</button><br>
+            <a href="primaryCharacterSheet.html" target="primary_display">Main Character Sheet</a><br>
+            <a href="charLevelPage.html" target="primary_display">Character Level Page</a><br>
+            <a href="arcanaAndSpells.html" target="primary_display">Arcana And Spells</a><br>
         </div>
+
+        <div  id="main__content" height="300px" width="300px">
+            <iframe name="primary_display" src="primaryCharacterSheet.html" title="Main Character Sheet" style="border:1px solid black;" height="300px" width="300px"></iframe>
+        </div>
+
     </body>
 </html>
