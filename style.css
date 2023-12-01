@@ -16,6 +16,11 @@ body {
     height: 500px;
     width: 100%;
 }
+#banner{
+    height:15%;
+    width:100%;
+}
+
 #target_frame{
     height: 500px;
     width: 100%;

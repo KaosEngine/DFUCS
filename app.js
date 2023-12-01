@@ -1,9 +1,9 @@
 function doTheThang() {
 
-        document.getElementById("banner").innerHTML = "Ahhhhhhhhhhhhhh! <button onclick=\"doTheThang2()\"> Click Meeee</button> ";
+        document.getElementById("footer_div").innerHTML = "Ahhhhhhhhhhhhhh! <button onclick=\"doTheThang2()\"> Click Meeee</button> ";
   }
 
   function doTheThang2() {
 
-    document.getElementById("banner").innerHTML = "HAHAHAHAHAHAHAHAH!!!! <button onclick=\"doTheThang()\"> Do it Again!</button> ";
+    document.getElementById("footer_div").innerHTML = "HAHAHAHAHAHAHAHAH!!!! <button onclick=\"doTheThang()\"> Do it Again!</button> ";
 }
