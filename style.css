@@ -10,12 +10,46 @@ body {
 
 
 /*id tags*/
+#root_div{
+    height:100%;
+    width:100%;
+}
+#root_div_banner{
+    height:15%;
+    width:100%;
+    position:absolute;
+    top:1px;
+    left:3px;
+}
+#root_div_menu{
+    height:65%;
+    width:25%;
+    position:absolute;
+    top:50px;
+    left:5px;
+}
+#root_div_main{
+    height:55%;
+    width:75%;
+    position:absolute;
+    top:100px;
+    left:150px;
+}
+#root_div_footer{
+    position:absolute;
+    width:100%;
+    height:10%;
+    bottom:5px;
+    left:5px;
+}
+
 #main_div {
     background-color: darkolivegreen;
     color: black;
-    height: 500px;
+    height: 75%;
     width: 100%;
 }
+
 #banner{
     height:15%;
     width:100%;
@@ -36,7 +70,7 @@ background-color: indigo;
 }
 
 #hit_points {
-        background-color: green;
+    background-color: green;
 }
 
 #fabula_points {        
@@ -66,7 +100,9 @@ background-color: indigo;
     background-color: red;
 }
 #backpack{background-color: orange;}
+
 #character_level{background-color: yellow;}
+
 #traits{
     background-color: orange;
 }
@@ -80,11 +116,27 @@ background-color: indigo;
     width:800px;
 }
 
+
+
 /*class tags*/
 .title_bubble_vert{
     background-color: darkgrey;
 
 }
+
+.bond_secL{
+    background-color: blueviolet;
+    border: 2px;
+    border-style: solid;
+    position:relative;
+}
+
+.bond_secR{
+    background-color: blueviolet;
+    border: 2px;
+    position:absolute;
+}
+
 
 .title_bubble_horiz{
     background-color:aquamarine;
